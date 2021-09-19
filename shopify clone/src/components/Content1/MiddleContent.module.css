@@ -1,0 +1,5 @@
+@media (min-width: 749px) {
+  .cards {
+    font-size: 3rem;
+  } /*1rem = 16px*/
+}

@@ -1,0 +1,22 @@
+import React from "react";
+import Color from "../assets/Colors";
+
+function Btn(props) {
+  return (
+    <div>
+      <button
+        className={props.className}
+        style={{
+          backgroundColor: Color.main,
+          color: "white",
+          fontSize: props.size ? props.size : 17,
+          width: props.w,
+        }}
+      >
+        {props.children}
+      </button>
+    </div>
+  );
+}
+
+export default Btn;
