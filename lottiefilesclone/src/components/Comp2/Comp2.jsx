@@ -2,22 +2,30 @@ import React from "react";
 import Color from "../../assets/Colors";
 import RBtn from "../../ReusableCompent/Btn";
 import "../../App.css";
+import Lottie from "react-lottie";
+import animationData from "../../lotties/landingPageAnnim.json";
+
 function Comp2() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      // preserveAspectRatio: "xMidYMid slice"
+    },
+  };
   return (
     <div
       className="mt-5 ml-4 row "
       style={{
         paddingTop: "20px",
-        // display: "",
       }}
     >
       <div className="col-md-6 col-sm-12 row general">
         <p
-          // className="col"
           style={{
             fontWeight: "bold",
             fontSize: "calc(100% + 1.5vw + 1vh)",
-            // width: "70%",
           }}
         >
           Lightweight, scalable animations
@@ -57,7 +65,9 @@ function Comp2() {
           </RBtn>
         </div>
       </div>
-      <div className=" col-md-6 col-sm-12">annim</div>
+      <div className=" col-md-6 col-sm-12  ">
+        <Lottie width={"100%"} height={"90%"} options={defaultOptions} />
+      </div>
     </div>
   );
 }

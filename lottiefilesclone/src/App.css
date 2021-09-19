@@ -1,5 +1,23 @@
+* {
+  overflow-x: hidden;
+}
+
+.click:hover {
+  color: #0fccce;
+}
+.click {
+  color: #3d4852;
+  cursor: pointer;
+}
 @media screen and (max-width: 726px) {
   .general {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 987px) {
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
