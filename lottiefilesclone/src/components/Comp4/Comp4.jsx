@@ -2,6 +2,7 @@ import React from "react";
 import "../../App.css";
 import Color from "../../assets/Colors";
 import AnnimSection from "./AnnimSection";
+import LastComp from "./LastComp";
 function Comp4() {
   return (
     <div
@@ -35,6 +36,7 @@ function Comp4() {
         </p>
       </div>
       <AnnimSection />
+      <LastComp />
     </div>
   );
 }

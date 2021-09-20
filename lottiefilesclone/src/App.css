@@ -20,6 +20,22 @@
     display: flex;
     flex-direction: column-reverse;
   }
+  .AllAnim {
+    /* background-color: red; */
+    /* display: flex; */
+  }
+  .AllAnim:nth-child(2) {
+    width: 12;
+  }
+  .AllAnim .div {
+    width: 10;
+    color: black;
+  }
+  .custom {
+    background-color: pink;
+    width: 30vw;
+    height: 30vh;
+  }
 }
 
 @media screen and (min-width: 573px) {

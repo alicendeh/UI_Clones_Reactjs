@@ -9,9 +9,6 @@ function Comp3() {
     loop: true,
     autoplay: true,
     animationData: animationData,
-    rendererSettings: {
-      // preserveAspectRatio: "xMidYMid slice"
-    },
   };
 
   const data = [
