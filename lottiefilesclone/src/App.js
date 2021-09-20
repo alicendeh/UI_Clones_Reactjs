@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Comp2 from "./components/Comp2/Comp2";
 import Comp2Logo from "./components/Comp2/Comp2Logo";
 import Comp3 from "./components/Comp3/Comp3";
+import Comp4 from "./components/Comp4/Comp4";
 
 function App() {
   return (
@@ -16,6 +17,12 @@ function App() {
         <Comp2 />
         <Comp2Logo />
         <Comp3 />
+        <Comp4 />
+        <div
+          style={{
+            height: "50vh",
+          }}
+        ></div>
       </div>
     </div>
   );

@@ -42,11 +42,7 @@ function Comp3() {
     },
   ];
   return (
-    <div
-      style={{
-        height: "500vh",
-      }}
-    >
+    <div className="mb-5 pb-5">
       <div className=" mt-5 pt-5 reverse ">
         <div className="col-lg-6 mt-5 col-md-12  row">
           {data.map((dataset) => (
@@ -60,7 +56,6 @@ function Comp3() {
                   padding: dataset.p && dataset.p,
                   border: dataset.color && "1px solid #0fccce",
                   boxShadow: dataset.color && "1px 1px  #0fccce",
-                  width: "150px",
                 }}
               >
                 <Lottie
@@ -158,7 +153,7 @@ function Comp3() {
               600
               <span
                 style={{
-                  fontSize: "6rem",
+                  fontSize: "5rem",
                   fontWeight: "bold",
                 }}
               >
@@ -184,7 +179,7 @@ function Comp3() {
               10
               <span
                 style={{
-                  fontSize: "6rem",
+                  fontSize: "5rem",
                   fontWeight: "bold",
                 }}
               >
