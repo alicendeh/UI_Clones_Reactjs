@@ -21,7 +21,7 @@
     flex-direction: column-reverse;
   }
   .AllAnim {
-    /* background-color: red; */
+    background-color: red;
     /* display: flex; */
   }
   .AllAnim:nth-child(2) {

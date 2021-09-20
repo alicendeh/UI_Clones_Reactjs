@@ -6,7 +6,7 @@ import LastComp from "./LastComp";
 function Comp4() {
   return (
     <div
-      className=" d-flex flex-column align-items-center"
+      className=" d-flex flex-column align-items-center pb-5 mb-5"
       style={{
         paddingTop: "75px",
       }}

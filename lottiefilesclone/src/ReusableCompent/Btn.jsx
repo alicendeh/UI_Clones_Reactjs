@@ -7,7 +7,7 @@ function Btn(props) {
       <button
         className={props.className}
         style={{
-          backgroundColor: Color.main,
+          backgroundColor: props.bg ? props.bg : Color.main,
           color: "white",
           fontSize: props.size ? props.size : 17,
           width: props.w,
