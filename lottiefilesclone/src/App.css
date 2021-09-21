@@ -9,6 +9,29 @@
   color: #3d4852;
   cursor: pointer;
 }
+
+.item1 {
+  /* position: relative; */
+}
+.item1 {
+  transform: rotate(-12deg);
+  color: #0fccce;
+  font-size: 21px;
+  /* position: absolute; */
+}
+.item2 {
+  transform: translateX(90px);
+  /* margin-top: -12px; */
+  color: #0fccce;
+  font-size: 21px;
+  /* position: absolute; */
+}
+.item3 {
+  transform: translateY(-15px) translateX(20px);
+}
+.item4 {
+  transform: translateY(150px);
+}
 @media screen and (max-width: 726px) {
   .general {
     text-align: center;
