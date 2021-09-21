@@ -7,6 +7,7 @@ import Comp4 from "./components/Comp4/Comp4";
 import Comp5 from "./components/Comp5/Comp5";
 import Comp6 from "./components/Comp6/Comp6";
 import Comp7 from "./components/Comp7/Comp7";
+import Comp8 from "./components/Comp8/Comp8";
 
 function App() {
   return (
@@ -24,12 +25,13 @@ function App() {
         <Comp5 />
         <Comp6 />
         <Comp7 />
-        <div
-          style={{
-            height: "50vh",
-          }}
-        ></div>
       </div>
+      <Comp8 />
+      <div
+        style={{
+          height: "50vh",
+        }}
+      ></div>
     </div>
   );
 }
