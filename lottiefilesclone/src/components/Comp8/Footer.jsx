@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Color from "../../assets/Colors";
 import Android from "../../assets/app_android.svg";
 import Apple from "../../assets/app_apple.svg";
@@ -11,6 +11,32 @@ import S5 from "../../assets/social_twitter_2.svg";
 import S6 from "../../assets/social_youtube_2.svg";
 
 function Footer() {
+  const data = [
+    "Brazil",
+    "Argentina",
+    "Malaysia",
+    "India",
+    "san Francisco",
+    "Maldives",
+  ];
+  const [stateToggler, setstateToggler] = useState(null);
+  const [i, setI] = useState(0);
+
+  useEffect(() => {
+    setstateToggler(data[i]);
+  }, []);
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (i < data.length) {
+        setI((prev) => prev + 1);
+        setstateToggler(data[i]);
+      } else {
+        setI(0);
+      }
+    }, 1000);
+  }, [i]);
+
   return (
     <div
       style={{
@@ -91,7 +117,19 @@ function Footer() {
           LottieFiles is by Design Barn Inc. Copyright © 2021 Design Barn Inc.
           All rights reserved
         </p>
-        <p className="col">Made with Alice</p>
+        <p className="col">
+          Made with
+          <i
+            class="fas fa-heart pl-2 pr-3"
+            style={{
+              color: "#E14033",
+            }}
+          ></i>
+          from
+          <span className="p-3" style={{}}>
+            {stateToggler}
+          </span>
+        </p>
         <div className="col row">
           <p className="pr-5">Feedback</p>
           <p className="pr-5">Press</p>
