@@ -69,3 +69,38 @@
     width: 60%;
   }
 }
+
+.items {
+  /* max-height: 120px; */
+  display: flex;
+  overflow-x: auto;
+  width: 1000px;
+  background-color: red;
+}
+.item {
+  /* min-width: 110px; */
+  width: 1000px;
+}
+/* .items::-webkit-scrollbar {
+    width: 0;
+  } */
+/* .items {
+  max-height: 120px;
+  border: 1px solid green;
+  display: flex;
+  overflow-x: auto;
+  width: 50%;
+} */
+
+/* .item {
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+  background-color: grey;
+  margin-right: 2px;
+  min-width: 110px;
+} */
+
+.items::-webkit-scrollbar {
+  width: 0;
+}

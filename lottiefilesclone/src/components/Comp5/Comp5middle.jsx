@@ -45,7 +45,7 @@ function Comp5middle() {
   return (
     <div>
       <div
-        className=" row mt-5 pt-5 ml-5 pl-5"
+        className="  mt-5 pt-5 ml-5 pl-5 items"
         style={{
           display: "flex",
           borderRadius: 12,
@@ -54,9 +54,9 @@ function Comp5middle() {
       >
         {DataSet.map((data) => (
           <div
-            className="ml-5 col-3 pb-5"
+            className="ml-5 col-3 pb-5 item"
             style={{
-              backgroundColor: "white",
+              backgroundColor: "teal",
               height: 550,
               borderRadius: 18,
               display: "flex",
