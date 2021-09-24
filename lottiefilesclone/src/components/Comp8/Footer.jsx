@@ -113,11 +113,11 @@ function Footer() {
         </div>
       </div>
       <div className="row pt-5">
-        <p className="col">
+        <p className="col-md-4 col-sm-12">
           LottieFiles is by Design Barn Inc. Copyright © 2021 Design Barn Inc.
           All rights reserved
         </p>
-        <p className="col">
+        <p className="col-md-4 col-sm-12 mt-3">
           Made with
           <i
             class="fas fa-heart pl-2 pr-3"
@@ -130,11 +130,11 @@ function Footer() {
             {stateToggler}
           </span>
         </p>
-        <div className="col row">
-          <p className="pr-5">Feedback</p>
-          <p className="pr-5">Press</p>
-          <p className="pr-5">Meet the team</p>
-          <p className="pr-5">Careers</p>
+        <div className=" row col-md-4 col-sm-12 pt-5">
+          <p className=" col-md-2 col-sm-12">Feedback</p>
+          <p className=" col-md-2 col-sm-12">Press</p>
+          <p className=" col-md-5 col-sm-12">Meet the team</p>
+          <p className=" col-md-2 col-sm-12">Careers</p>
         </div>
       </div>
     </div>
