@@ -126,9 +126,7 @@ function Footer() {
             }}
           ></i>
           from
-          <span className="p-3" style={{}}>
-            {stateToggler}
-          </span>
+          <span className="p-3 places">{stateToggler}</span>
         </p>
         <div className=" row col-md-4 col-sm-12 pt-5">
           <p className=" col-md-2 col-sm-12">Feedback</p>

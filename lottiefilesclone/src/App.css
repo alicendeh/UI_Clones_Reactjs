@@ -104,3 +104,15 @@
 .items::-webkit-scrollbar {
   width: 0;
 }
+
+.places {
+  /* background-color: red; */
+  animation: pl 1s ease-in-out;
+}
+
+@keyframes pl {
+  100% {
+    color: greenyellow;
+    transition: color 1s ease-in-out 1s;
+  }
+}
